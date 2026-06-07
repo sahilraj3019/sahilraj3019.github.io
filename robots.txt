@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Allow: /assets/
+
+# Block system folders if any
+Disallow: /.git/
+Disallow: /node_modules/
+
+Sitemap: https://sahilraj3019.github.io/sitemap.xml

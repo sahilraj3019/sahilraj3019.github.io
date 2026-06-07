@@ -1367,6 +1367,10 @@ body.light-theme .moon-icon {
 
 /* Mobile Devices */
 @media (max-width: 768px) {
+  .hero-section {
+    padding-top: calc(var(--header-height) + 5.5rem) !important;
+  }
+
   .section {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;

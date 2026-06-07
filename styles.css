@@ -1481,6 +1481,10 @@ body.light-theme .moon-icon {
   .toast {
     width: 100%;
   }
+
+  .footer {
+    padding: 3rem 0 2rem;
+  }
 }
 
 /* -------------------------------------------------------------

@@ -1,6 +1,6 @@
 # Hi, I'm Sahil Raj 👋
 
-Senior Full Stack Developer specializing in building scalable enterprise web applications, high-performance UI layouts, and secure AI-driven workflows.
+Senior Full Stack Developer specializing in building scalable enterprise web applications, high-performance UI layouts, and secure Gen AI-driven workflows.
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sahilraj15)
 [![Email Badge](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sahilraj15may@gmail.com)
@@ -53,8 +53,10 @@ Senior Full Stack Developer specializing in building scalable enterprise web app
       <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
     </td>
     <td valign="top" width="50%">
-      <h4>AI & Testing core</h4>
+      <h4>Gen AI & Testing</h4>
       <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+      <img src="https://img.shields.io/badge/Claude_API-D97706?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
+      <img src="https://img.shields.io/badge/MCP-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="MCP" />
       <img src="https://img.shields.io/badge/TensorFlow.js-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
       <img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white" alt="Jest" />
       <img src="https://img.shields.io/badge/Testing_Library-E33332?style=flat-square&logo=testing-library&logoColor=white" alt="RTL" />

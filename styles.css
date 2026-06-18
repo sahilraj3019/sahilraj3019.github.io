@@ -1491,6 +1491,76 @@ body.light-theme .moon-icon {
   }
 }
 
+/* Custom Cursor Elements styles */
+.custom-cursor-element {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10000;
+  border-radius: var(--radius-full);
+  will-change: transform;
+  opacity: 0;
+  transition: opacity 250ms ease, border-color var(--transition-fast), background-color var(--transition-fast);
+}
+
+.custom-cursor-visible {
+  opacity: 1;
+}
+
+#custom-cursor-dot {
+  width: 6px;
+  height: 6px;
+  background-color: var(--text-main);
+}
+
+#custom-cursor-ring {
+  width: 32px;
+  height: 32px;
+  border: 1.5px solid var(--text-main);
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+body.light-theme #custom-cursor-ring {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+#custom-cursor-ring.is-hovering {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+body.light-theme #custom-cursor-ring.is-hovering {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+/* Hide default cursor on desktop screens supporting hover */
+@media (hover: hover) and (pointer: fine) {
+  body, a, button, select, textarea, input, [role="button"], .social-link, .filter-btn, .info-card {
+    cursor: none !important;
+  }
+  .custom-cursor-element {
+    display: block;
+  }
+}
+
+/* Pointer Trail Canvas Overlay */
+#pointer-trail-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #pointer-trail-canvas {
+    display: none;
+  }
+}
+
 /* -------------------------------------------------------------
    PRINT MEDIA STYLESHEET
    Makes the webpage printable as a professional resume layout.
